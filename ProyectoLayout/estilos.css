@@ -32,11 +32,13 @@ header {
 }
 
 header .menu a {
-	color: #fff;
+	color: rgb(171, 170, 245);
 	text-decoration: none;
 	margin-right:40px;
 	font-size: 18px;
+	
 }
+
 
 header .menu a:hover {text-decoration: underline;}
 
@@ -82,9 +84,15 @@ aside .ad {
 	text-align: center;
 	color: #fff;
 	padding: 50px 0;
-	/*margin: 20px 0;*/
-	background: #796135;
+	/*margin: 20px 0;
+	background: #796135;*/
 }
+
+img{
+width: 260px;
+height: 200px;
+}
+
 
 footer {
 	margin-top: 20px;
@@ -110,6 +118,9 @@ footer .redes-sociales a:hover {
 }
 .responsive li {
 	display: block;
+}
+p{
+	font-family: 'Lato', sans-serif;
 }
 
 
