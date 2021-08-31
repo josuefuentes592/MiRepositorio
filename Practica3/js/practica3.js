@@ -75,5 +75,4 @@ function Fecha ()
    
      document.getElementById('mostrarfecha').value= res;
 
-
 }
