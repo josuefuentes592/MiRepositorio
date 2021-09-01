@@ -1,7 +1,6 @@
-
 //const header = document.querySelector('header');
 //const section = document.querySelector('section');
-const requestURL = "https://josuefuentes592.github.io/MiRepositorio/API/ciudad.json";
+const requestURL = "https://faviolasoliz.github.io/MiRepositorio/Practicas/JSON/ciudad.json";
 const request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
