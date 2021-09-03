@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen</title>
+</head>
+<body>
+    
+    <h2>Ejercicio 2</h2>
+    <div class = 'contenedor'>
+        <form action="">
+
+            <p class="subti">Ingrese un numero</p><input type="text"  id='nume1'>
+            <p class="subti">Ingrese un numero</p><input type="text"  id='nume2'>
+                                
+            <p class="subti">Los números impares que existen entre num1 y num2 son:</p><input type="text"  id='resp' readonly>
+
+            <hr>
+
+            <input class = 'btn' type="button" value='parImpar' onclick="Impares()">
+
+        </form>
+    </div>
+
+    <script>
+
+function Impares(){
+
+    var numero1 = parseFloat(document.getElementById('nume1').value);
+    var numero2 = parseFloat(document.getElementById('nume2').value);
+
+//document.write("Los números impares que existen entre " + num1 + " y " + num2 + " son: ");
+    for (var i = num1; i < num2; i++) {
+ 
+        resultado = i;
+
+ if (i % 2 != 0) {
+
+      i++;
+ }
+}
+document.getElementById ('resp').value = resultado;
+}
+
+    </script>
+
+
+</body>
+</html>
